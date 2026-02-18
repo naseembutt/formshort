@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<form action="#" method="post">
+    First Name:
+    <input type="text" name="firstname" placeholder="John">
+    Last Name:
+    <input type="text" name="lastname" placeholder="Smith">
+    <br>
+    <form>
+  <label>
+    Male
+    <input type="radio" name="gender" value="male">
+  </label>
+  <label>
+    Female
+    <input type="radio" name="gender" value="female">
+  </label>
+  <label>
+    Other
+    <input type="radio" name="gender" value="other">
+  </label>
+</form>
+    Email:
+    <input type="email" name="email" placeholder="your email">
+    Password:
+    <input type="password" name="password" placeholder="your password">
+    <br>
+    Birthday:
+    <select name ="month" required>
+        <option value="">Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+    </select>
+    <select name="day" required>
+        <option value="">Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <select name="year" required>
+        <option value="">Year</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+    </select>
+    <br>
+    <form>
+      <label>
+       I agree to the terms and conditions
+       <input type="checkbox" name="terms">
+      </label>
+      <br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
